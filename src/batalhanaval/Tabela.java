@@ -208,9 +208,9 @@ public class Tabela {
             
         try {
             System.out.print("Realizando disparo .");
-            //Thread.sleep(2000);   
+            Thread.sleep(1500);   
             System.out.print(".");
-            Thread.sleep(1);   
+            Thread.sleep(1500);   
             System.out.println(".");
         } catch(InterruptedException ex) {
             Thread.currentThread().interrupt();
